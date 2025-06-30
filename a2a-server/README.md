@@ -34,10 +34,13 @@ Our goal is to illustrate how the A2A protocol enables sophisticated, interactiv
 
 ## Setup & Running
 
-### 1. Navigate to the samples directory:
-    cd samples/python/agents/langgraph
+### 1. Clone the repository:
+    git clone https://github.com/egnyte/egnyte-ai-samples.git
 
-###  2. Create an environment file with your credentials:
+### 2. Navigate to the samples directory:
+    cd a2a-server/samples/python/agents/langgraph
+
+###  3. Create an environment file with your credentials:
 
 ##### Set the Google API key
 
@@ -51,8 +54,7 @@ Our goal is to illustrate how the A2A protocol enables sophisticated, interactiv
 
     echo "EGNYTE_ACCESS_TOKEN=your_access_token_here" >> .env
 
-### 3. Run the agent (default port 10000):
-    . .env
+### 4. Run the agent (default port 10000):
     uv run .
 
 
@@ -73,7 +75,7 @@ Our goal is to illustrate how the A2A protocol enables sophisticated, interactiv
 ```bash
   uv run main.py   # serves UI on http://localhost:3000
 ```
-Open http://localhost:3000 in your browser and register agent with http://localhost:10000
+Open http://localhost:3000 in your browser (or http://0.0.0.0:12000 if you're on Linux) and register agent with http://localhost:10000
 
 
 
