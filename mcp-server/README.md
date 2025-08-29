@@ -1,10 +1,32 @@
 # Egnyte MCP Server
 
-An **MCP (Model Context Protocol)** server that connects to your Egnyte domain and exposes document search and retrieval functionality for use in **AI agents** like Cursor, Claude, or OpenAI.
+An **MCP (Model Context Protocol)** server that connects to your Egnyte domain and exposes document search and retrieval functionality for use in **AI agents**.
 
 This server uses **Egnyte’s public APIs and Python SDK** to support secure, real-time access to your Egnyte content, enabling smart AI-driven workflows while respecting existing permissions.
 
 ---
+## ⚠️ Important: Choose the Right Solution
+
+> **🌐 Remote MCP Server (Recommended)** - The **officially supported** solution by Egnyte
+> - ✅ Best for most users and production use cases
+> - ✅ Required for ChatGPT integration
+> - ✅ OAuth authentication built-in
+> - ✅ 200+ tools available out-of-the-box
+> - ✅ No local setup or API wrapper development needed
+> - 📖 **[Get Started with Remote MCP Server →](https://developers.egnyte.com/docs/Remote_MCP_Server)**
+>
+> **💻 Open-Source MCP Server (This Repo)** - For developers and experimentation
+> - ⚡ Local development and testing only
+> - ⚡ Requires API access token management
+> - ⚡ Limited to basic search functionality
+> - ⚡ Additional API wrappers must be implemented for extended functionality
+> - ⚡ Best for developers who want to customize and extend the implementation
+
+**For production use, ChatGPT/Claude integration, or if you need more than basic search functionality, use the [Remote MCP Server](#-remote-mcp-server-beta---for-chatgpt--oauth-compatible-clients).**
+
+---
+
+
 ## 📑 Quick Navigation
 
 - [About](#-about)
