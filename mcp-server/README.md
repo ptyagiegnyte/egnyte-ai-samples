@@ -19,10 +19,8 @@ This server uses **Egnyte’s public APIs and Python SDK** to support secure, re
 > - ⚡ Local development and testing only
 > - ⚡ Requires API access token management
 > - ⚡ Limited to basic search functionality
-> - ⚡ Additional API wrappers must be implemented for extended functionality
+> - ⚡ Additional tools must be implemented for extended functionality
 > - ⚡ Best for developers who want to customize and extend the implementation
-
-**For production use, ChatGPT/Claude integration, or if you need more than basic search functionality, use the [Remote MCP Server](#-remote-mcp-server-beta---for-chatgpt--oauth-compatible-clients).**
 
 ---
 
